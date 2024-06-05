@@ -1,4 +1,84 @@
+
 .Seccion-productos{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-productos{
+    font-size: 35px;
+    text-align: center;
+}
+
+.contenedor-cajas{
+    display: flex;
+    width: 100%;
+    height: 689.94px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 14PX;
+    justify-content: center;
+}
+
+.Contenedor-card{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    height: 232px;
+}
+
+.card{
+    
+    width: 173px;
+    height: 100%;
+    text-align: center;
+}
+
+.img-card{
+
+    width: 148px;
+    height: 174px;
+}
+
+
+/* 
+
+
+seccion escritorio
+
+.Seccion-productos{
+    width: 758px;
+    height: 1115px;
+}
+
+
+.contenedor-cajas{
+    display: flex;
     width: 678px;
     height: 971px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
 }
+
+.Contenedor-card{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    
+}
+
+.card{
+    display: flex;
+    width: 196px;
+    height: 258px;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.img-card{
+    width: 176px;
+    height: 174px;
+} */
