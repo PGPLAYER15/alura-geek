@@ -11,8 +11,9 @@
         <section class="Seccion-cabecera">
 
             <div class="contenedor-cabecera">
+                <img class="img-cabecera"src="/IMG/image 1.svg" alt="">
                 <h1> Alura Geek</h1>
-                <img src="/IMG/logo.svg" alt="">
+                <img class="img-cabecera"src="/IMG/logo.svg" alt="">
             </div>
 
         </section>
@@ -155,20 +156,24 @@
 
             <div class="Formulario">
 
-                <h2 class="titulo-form"> Agregar Producto</h2>
+                <h2 class="titulo-form"> Agregar Producto: </h2>
 
                     <div class="formulario-group">
 
                             <form>
-                                <input class="form-input" type="text" name="name" id="name" placeholder="Nombre..." pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Solo letras y espacios" required minlength="3">
+                                <input class="form-input" type="text" name="name"  placeholder="Nombre . . ." pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Solo letras y espacios" required minlength="3">
                         
-                                <input class="form-input" type="number" name="precio" id="precio" placeholder="Precio..." pattern="[0-9]{10}" title="Debe contener 10 dígitos" required maxlength="10" minlength="10">
+                                <input class="form-input" type="number" name="precio" placeholder="Precio . . ." pattern="[0-9]{10}" title="Debe contener 10 dígitos" required maxlength="10" minlength="10">
                         
-                                <input class="form-input" type="url" name="url" id="url" placeholder="Imagen..." required>
-                        
-                                <input class="btn-enviar" type="submit" value="Enviar">
+                                <input class="form-input" type="url" name="url"  placeholder="Imagen . . ." required>
+                                
+                                <div class="contenedor-btn">
 
-                                <input class="btn-limpiar" type="submit" value="limpiar">
+                                    <input class="btn-enviar" type="submit" value="Enviar">
+
+                                    <input class="btn-limpiar" type="submit" value="limpiar">
+                                </div>
+                                
 
                             </form>
                         </div>

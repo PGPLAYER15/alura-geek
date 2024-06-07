@@ -4,11 +4,15 @@
     flex-direction: column-reverse;
     width: 100%;
     height: 100%;
+    margin: 30px 0 0 0;
+    
 }
 
 .titulo-productos{
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
+    font-family: 'PressStart';
+    padding: 0 0 20px 0;
 }
 
 .contenedor-cajas{
@@ -26,6 +30,8 @@
     justify-content: center;
     border: 2px solid black;
     height: 232px;
+    border-radius: 10px;
+    background-color:#2758bb;
 }
 
 .card{
@@ -41,6 +47,12 @@
     height: 174px;
 }
 
+.card-container--value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .Formulario{
     width: 100%;
     height: 517px;
@@ -49,12 +61,18 @@
 .formulario-group {
     display: flex;
     justify-content: center;
+    
 }
 
 .titulo-form{
     text-align: center;
     margin: 10px;
-    font-size: 40px
+    font-size: 19px;
+    font-family: 'PressStart';
+    padding: 0 0 20px 0;
+    
+    
+    
 }
 
 .formulario-group form{
@@ -71,9 +89,45 @@
     width: 350px;
     height: 58px;
     border-radius: 40px;
-    
+    padding: 0 0 0 10px;
+    border: 3px solid #1D428B;
+    font-size: 15px;
+    color: #03318C;
+    outline: none;
 }
 
+.form-input::placeholder {
+    color: #1D428B;
+    font-weight: 600;
+}
+
+
+
+.contenedor-btn{
+    display: flex;
+    gap: 10px   ;
+    justify-content: center;
+}
+
+.btn-enviar{
+    width: 164px;
+    height: 55px;
+    border-radius:15px ;
+    background-color:#1D428B;
+    font-size: 19px;
+    color: white;
+
+}
+
+.btn-limpiar{
+    width: 164px;
+    height: 55px;
+    border-radius:15px ;
+    border: 3px solid #1D428B;
+    background-color: white;
+    font-size: 19px;
+    color: #1D428B;
+}
 
 /* 
 

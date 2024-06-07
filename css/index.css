@@ -2,7 +2,14 @@
 @import url(/css/normalize.css);
 @import url(/css/productos.css);
 
+@font-face {
+    font-family: PressStart;
+    src: url('/public/fonts/PressStart.ttf') format('truetype');
+    font-display: swap;
+}
+
 body{
     height: 1625px;
     width: 100%;
+    
 }
