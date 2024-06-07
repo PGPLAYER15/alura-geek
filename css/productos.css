@@ -51,6 +51,12 @@
     justify-content: center;
 }
 
+.titulo-form{
+    text-align: center;
+    margin: 10px;
+    font-size: 40px
+}
+
 .formulario-group form{
     display: flex;
     flex-direction: column;
