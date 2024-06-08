@@ -1,10 +1,18 @@
 @import url(/css/header.css);
 @import url(/css/normalize.css);
 @import url(/css/productos.css);
+@import url(/css/footer.css);
 
 @font-face {
     font-family: PressStart;
     src: url('/public/fonts/PressStart.ttf') format('truetype');
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family:IBMPlexMono;
+    src: url('/public/fonts/IBMPlexMono.ttf') format('truetype');
     font-display: swap;
 }
 

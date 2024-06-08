@@ -1,0 +1,32 @@
+footer{
+    margin-top: 20%;
+    width: 100%;
+    height: 168px;
+    background-color:#1D428B ;
+    color: white;
+}
+
+.seccion-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.titulo-footer{
+    font-family: 'PressStart';
+    font-size: 14px;
+}
+
+.contenedor-footer-info{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 20px;
+}
+
+.info{
+    font-family:'IBMPlexMono' ,sans-serif; 
+}
