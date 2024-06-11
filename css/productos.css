@@ -189,12 +189,10 @@ seccion escritorio
         gap: 160px;
     }
     
-    
-    
     .contenedor-cajas{
         display: flex;
         width: 678px;
-        height: 971px;
+        height: 771px;
         flex-direction: column;
         flex-wrap: wrap;
         gap: 10px;
@@ -204,15 +202,22 @@ seccion escritorio
         display: flex;
         justify-content: center;
         border: 2px solid black;
+        height: 244px;
+        border-radius: 10px;
+        background-color:#2758bb;
         
     }
     
+
+    
+
     .card{
         display: flex;
-        width: 196px;
-        height: 258px;
+        width: 173px;
+        height: 100%;
         text-align: center;
         flex-direction: column;
+        justify-content: center;
     }
     
     
