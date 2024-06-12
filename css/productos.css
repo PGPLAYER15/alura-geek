@@ -8,12 +8,20 @@
     
 }
 
+
+
 .titulo-productos{
     font-size: 20px;
     text-align: center;
     font-family: 'PressStart';
-    padding: 0 0 20px 0;
+    padding: 20px 0 20px 0;
 }
+
+.contenedor-productos{
+    width: 100%;
+    
+}
+
 
 .contenedor-cajas{
     display: flex;
@@ -33,7 +41,7 @@
     border: 2px solid black;
     height: 232px;
     border-radius: 10px;
-    background-color:#2758bb;
+    background-color:#bdb9b9;
 }
 
 .card{
@@ -98,14 +106,14 @@
     height: 58px;
     border-radius: 40px;
     padding: 0 0 0 10px;
-    border: 3px solid #1D428B;
+    border: 3px solid #4a4949;
     font-size: 15px;
-    color: #03318C;
+    color: #4c4d4e;
     outline: none;
 }
 
 .form-input::placeholder {
-    color: #1D428B;
+    color: #363636;
     font-weight: 600;
 }
 
@@ -120,8 +128,8 @@
 .btn-enviar{
     width: 164px;
     height: 55px;
-    border-radius:15px ;
-    background-color:#1D428B;
+    border-radius: 15px;
+    background-color: #605d5d;
     font-size: 19px;
     color: white;
 
@@ -130,11 +138,11 @@
 .btn-limpiar{
     width: 164px;
     height: 55px;
-    border-radius:15px ;
-    border: 3px solid #1D428B;
+    border-radius: 15px;
+    border: 3px solid #605d5d;
     background-color: white;
     font-size: 19px;
-    color: #1D428B;
+    color: black;
 }
 
 /* seccion escritorio */
@@ -149,15 +157,33 @@
         margin-top: 100px;
         gap: 160px;
     }
+
+    .productos{
+        width:45%;
+        background: #f7f7f7;
+        box-shadow: 7px 9px 15px rgba(0, 0, 0, 0.08);
+        height: 700px;
+    }
+    
+    .contenedor-productos{
+        height: 600px;
+        
+    }
     
     .contenedor-cajas{
         display: flex;
-        width: 678px;
-        height: 771px;
-        flex-direction: column;
+        width: 857px;
+        height: 600px;
+        flex-direction: row;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 16px;
+        justify-content: center;
+        overflow-y: scroll;
+        scrollbar-width: none;
     }
+
+    
+    
     
     .Contenedor-card{
         display: flex;
@@ -165,7 +191,8 @@
         border: 2px solid black;
         height: 244px;
         border-radius: 10px;
-        background-color:#2758bb;
+        background-color: #bdb9b9;
+        box-shadow: 7px 6px 14px rgba(0, 0, 0, 0.20);
         
     }
     
@@ -183,13 +210,15 @@
     
     
     .img-card{
-        width: 176px;
-        height: 174px;
+        width: 157px;
+        height: 159px;
     }
 
     .Formulario{
         width: 472px;
-        height: 417px;
+        height: 447px;
+        background-color: #f7f7f7;
+        box-shadow: 7px 9px 15px rgba(0, 0, 0, 0.08);
 
     }
 }

@@ -25,7 +25,7 @@ function crearCard(nombre,img,precio){
 async function listarProductos(){
     const listaAPI =  await conexionAPI.listarProductos()
 
-    listaAPI.forEach(producto=>ListaProductos.appendChild(crearCard(producto.nombre,producto.img,producto.precio )))
+    listaAPI.forEach(producto=>ListaProductos.appendChild(crearCard(producto.nombre,producto.imagen,producto.precio )))
 
 }
 
