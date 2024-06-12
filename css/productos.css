@@ -137,46 +137,7 @@
     color: #1D428B;
 }
 
-/* 
-
-
-seccion escritorio
-
-.Seccion-productos{
-    width: 758px;
-    height: 1115px;
-}
-
-
-.contenedor-cajas{
-    display: flex;
-    width: 678px;
-    height: 971px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.Contenedor-card{
-    display: flex;
-    justify-content: center;
-    border: 2px solid black;
-    
-}
-
-.card{
-    display: flex;
-    width: 196px;
-    height: 258px;
-    text-align: center;
-    flex-direction: column;
-}
-
-
-.img-card{
-    width: 176px;
-    height: 174px;
-} */
+/* seccion escritorio */
 
 @media only screen and (min-width: 1024px){
     .Seccion-productos{
