@@ -31,7 +31,7 @@
     flex-wrap: wrap;
     gap: 14PX;
     justify-content: center;
-    color: white;
+    color: #363636;
     font-family:'IBMPlexMono' ,sans-serif; 
 }
 
@@ -85,7 +85,7 @@
     margin: 10px;
     font-size: 19px;
     font-family: 'PressStart';
-    padding: 0 0 20px 0;
+    padding: 20px 0 20px 0;
     
     
     
@@ -132,6 +132,16 @@
     background-color: #605d5d;
     font-size: 19px;
     color: white;
+    transition: background 0.7s linear;
+    
+}
+
+.btn-enviar:hover{
+    transition: background 0.7s linear;
+    transition: color 0.4s linear;
+    background-color: #b1b1b1;
+    color:black;
+    
 
 }
 
@@ -143,6 +153,14 @@
     background-color: white;
     font-size: 19px;
     color: black;
+    transition: background 0.7s linear;
+}
+
+.btn-limpiar:hover {
+    transition: background 0.7s linear;
+    transition: color 0.4s linear;
+    background-color: #868686;
+    color: white;
 }
 
 /* seccion escritorio */
@@ -167,12 +185,14 @@
     
     .contenedor-productos{
         height: 600px;
+        display: flex;
+        justify-content: center
         
     }
     
     .contenedor-cajas{
         display: flex;
-        width: 857px;
+        width: 99%;
         height: 600px;
         flex-direction: row;
         flex-wrap: wrap;
@@ -216,7 +236,7 @@
 
     .Formulario{
         width: 472px;
-        height: 447px;
+        height: 507px;
         background-color: #f7f7f7;
         box-shadow: 7px 9px 15px rgba(0, 0, 0, 0.08);
 
