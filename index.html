@@ -45,18 +45,18 @@
 
                     <div class="formulario-group">
 
-                            <form>
-                                <input class="form-input" type="text" name="name"  placeholder="Nombre . . ." pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Solo letras y espacios" required minlength="3">
+                            <form data-formulario>
+                                <input class="form-input" type="text" name="name"  placeholder="Nombre . . ." pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Solo letras y espacios" required minlength="3" data-nombre>
                         
-                                <input class="form-input" type="number" name="precio" placeholder="Precio . . ." pattern="[0-9]{10}" title="Debe contener 10 dígitos" required maxlength="10" minlength="10">
+                                <input class="form-input" type="number" name="precio" placeholder="Precio . . ." pattern="[0-9]{10}" title="Debe contener 10 dígitos" required maxlength="10" minlength="10" data-precio>
                         
-                                <input class="form-input" type="url" name="url"  placeholder="Imagen . . ." required>
+                                <input class="form-input" type="url" name="url"  placeholder="Imagen . . ." required data-imagen>
                                 
                                 <div class="contenedor-btn">
 
                                     <input class="btn-enviar" type="submit" value="Enviar">
 
-                                    <input class="btn-limpiar" type="submit" value="limpiar">
+                                    <input class="btn-limpiar" type="reset" value="limpiar">
                                 </div>
                                 
 
@@ -89,5 +89,6 @@
         
     </footer>
     <script src="./Js/MostrarProductos.js" type="module"></script>
+    <script src="./Js/crearproducto.js" type="module"></script>
 </body>
 </html>
