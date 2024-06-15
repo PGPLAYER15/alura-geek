@@ -66,6 +66,10 @@
     font-weight: bold;
 }
 
+.btnborrar{
+    cursor: pointer;
+}
+
 
 /* Seccion formulario */
 
@@ -227,6 +231,7 @@
         text-align: center;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     
     

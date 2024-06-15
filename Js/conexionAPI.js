@@ -8,14 +8,16 @@ async function listarProductos (){
     
 }
 
-async function enviarProducto (nombre,precio,imagen){
+async function enviarProducto (nombre,precio,imagen,id){
     const conexion = await fetch('http://localhost:3001/Productos' , {
         method:"POST",
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({
             nombre:nombre,
             precio:precio,
-            imagen:imagen
+            imagen:imagen,
+            id:id
+            
         })
     })
     const conexionConvertida = conexion.json();
