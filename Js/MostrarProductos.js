@@ -1,5 +1,5 @@
 import { conexionAPI } from "./conexionAPI.js";
-import { borrarProducto } from "./borrarProducto.js";
+
 
 const ListaProductos = document.querySelector("[data-lista]");
 
@@ -20,12 +20,17 @@ function crearCard(nombre,img,precio,id){
                         
 
     
-    /* const btnBorrar = producto.querySelector("[data-borrar]")
+    const btnBorrar = producto.querySelector("[data-borrar]")
 
     btnBorrar.addEventListener("click", () => {
-        producto.remove
+        conexionAPI.borrarProducto(id)
+        .then(()=>{
+            producto.remove();
+            
+        })
+        .catch(err => console.log(err))
         
-    }); */
+    });
 
     return producto;
 }
@@ -37,7 +42,7 @@ function crearCard(nombre,img,precio,id){
 async function listarProductos(){
     const listaAPI =  await conexionAPI.listarProductos()
 
-    listaAPI.forEach(producto=>ListaProductos.appendChild(crearCard(producto.nombre,producto.imagen,producto.precio )))
+    listaAPI.forEach(producto=>ListaProductos.appendChild(crearCard(producto.nombre,producto.imagen,producto.precio,producto.id )))
 
 }
 

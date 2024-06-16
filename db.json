@@ -46,12 +46,6 @@
       "nombre": "Casco Star wars",
       "imagen": "https://imgs.search.brave.com/hQok85zLbHo91PDYz5O_zftBO3pOx1mqPYPDku80_cM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMueHRyYWxpZmUu/Y29tL2NvbnZlcnNp/b25zLzBNQ0QtNjdK/NjI4MzU0MC1tZWRp/dW1fdzY0MF9oNDgw/X3E3NS1jYXNjb21h/bmRhbG9yaWFuMDIt/MTYwNTUzNjM0Mi53/ZWJw",
       "precio": "20.00",
-      "id": "6674"
-    },
-    {
-      "nombre": "Casco Star wars",
-      "imagen": "https://imgs.search.brave.com/hQok85zLbHo91PDYz5O_zftBO3pOx1mqPYPDku80_cM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMueHRyYWxpZmUu/Y29tL2NvbnZlcnNp/b25zLzBNQ0QtNjdK/NjI4MzU0MC1tZWRp/dW1fdzY0MF9oNDgw/X3E3NS1jYXNjb21h/bmRhbG9yaWFuMDIt/MTYwNTUzNjM0Mi53/ZWJw",
-      "precio": "20.00",
       "id": "6d10"
     },
     {
@@ -59,18 +53,6 @@
       "imagen": "https://imgs.search.brave.com/hQok85zLbHo91PDYz5O_zftBO3pOx1mqPYPDku80_cM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMueHRyYWxpZmUu/Y29tL2NvbnZlcnNp/b25zLzBNQ0QtNjdK/NjI4MzU0MC1tZWRp/dW1fdzY0MF9oNDgw/X3E3NS1jYXNjb21h/bmRhbG9yaWFuMDIt/MTYwNTUzNjM0Mi53/ZWJw",
       "precio": "20.00",
       "id": "7bf1"
-    },
-    {
-      "nombre": "Casco Star wars",
-      "imagen": "https://imgs.search.brave.com/hQok85zLbHo91PDYz5O_zftBO3pOx1mqPYPDku80_cM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMueHRyYWxpZmUu/Y29tL2NvbnZlcnNp/b25zLzBNQ0QtNjdK/NjI4MzU0MC1tZWRp/dW1fdzY0MF9oNDgw/X3E3NS1jYXNjb21h/bmRhbG9yaWFuMDIt/MTYwNTUzNjM0Mi53/ZWJw",
-      "precio": "20.00",
-      "id": "7400"
-    },
-    {
-      "nombre": "Casco Star wars",
-      "imagen": "https://imgs.search.brave.com/hQok85zLbHo91PDYz5O_zftBO3pOx1mqPYPDku80_cM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMueHRyYWxpZmUu/Y29tL2NvbnZlcnNp/b25zLzBNQ0QtNjdK/NjI4MzU0MC1tZWRp/dW1fdzY0MF9oNDgw/X3E3NS1jYXNjb21h/bmRhbG9yaWFuMDIt/MTYwNTUzNjM0Mi53/ZWJw",
-      "precio": "20.00",
-      "id": "8515"
     },
     {
       "id": "50ed",
