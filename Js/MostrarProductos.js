@@ -22,11 +22,13 @@ function crearCard(nombre,img,precio,id){
     
     const btnBorrar = producto.querySelector("[data-borrar]")
 
-    btnBorrar.addEventListener("click", () => {
+    btnBorrar.addEventListener("click", (event) => {
         conexionAPI.borrarProducto(id)
         .then(()=>{
+            event.preventDefault();
             producto.remove();
             
+
         })
         .catch(err => console.log(err))
         
