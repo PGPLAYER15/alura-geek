@@ -6,6 +6,7 @@ async function borrarProducto(id ) {
     return await fetch(`https://api-fake-seven.vercel.app/Productos/${id}`,{
         method: "DELETE"
     });
+    
 
     
 }
