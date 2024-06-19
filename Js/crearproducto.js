@@ -3,7 +3,7 @@ import { conexionAPI } from "./conexionAPI.js";
 const formulario = document.querySelector("[data-formulario]");
 
 async function crearProducto(evento){
-
+    location.reload();
     evento.preventDefault();
 
     const nombre = document.querySelector("[data-nombre]").value;

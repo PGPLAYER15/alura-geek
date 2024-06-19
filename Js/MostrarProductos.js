@@ -24,6 +24,7 @@ function crearCard(nombre,img,precio,id){
 
     btnBorrar.addEventListener("click", (event) => {
         event.preventDefault();
+        location.reload();
         conexionAPI.borrarProducto(id)
         .then(()=>{
             
