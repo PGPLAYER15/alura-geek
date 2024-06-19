@@ -1,7 +1,12 @@
 async function listarProductos (){
-    const conexion = await fetch('https://fake-api-jet-five.vercel.app/Productos');
+    const conexion = await fetch('https://fake-api-jet-five.vercel.app/Productos',{
+        method: "GET",
+        headers: {
+            "Content-Type":"application/json"
+        }
+    });
 
-    const conexionConvertida = conexion.json();
+    const conexionConvertida =  await conexion.json();
 
     return conexionConvertida
 
@@ -28,7 +33,10 @@ async function enviarProducto (nombre,precio,imagen,id){
 
 const borrarProducto = async (id)=>{
     const res = await fetch(`https://fake-api-jet-five.vercel.app/Productos/${id}`,{
-        method: "DELETE"
+        method: "DELETE",
+        headers: {
+            "content-type": "application/json"
+        },
         
     });
     return res.json();
