@@ -22,8 +22,8 @@ function crearCard(nombre,img,precio,id){
     
     const btnBorrar = producto.querySelector("[data-borrar]")
 
-    btnBorrar.addEventListener("click", (event) => {
-        event.preventDefault();
+    btnBorrar.addEventListener("click", () => {
+        
         location.reload();
         conexionAPI.borrarProducto(id)
         .then(()=>{
@@ -35,7 +35,7 @@ function crearCard(nombre,img,precio,id){
         .catch(err => console.log(err))
         
     });
-
+    ListaProductos.appendChild(producto)
     return producto;
 }
 
@@ -46,7 +46,12 @@ function crearCard(nombre,img,precio,id){
 async function listarProductos(){
     const listaAPI =  await conexionAPI.listarProductos()
 
-    listaAPI.forEach(producto=>ListaProductos.appendChild(crearCard(producto.nombre,producto.imagen,producto.precio,producto.id )))
+    listaAPI.forEach(producto=>ListaProductos.appendChild(crearCard
+        (producto.nombre,
+            producto.imagen,
+            producto.precio,
+            producto.id 
+        )))
 
 }
 

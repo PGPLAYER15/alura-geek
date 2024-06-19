@@ -24,22 +24,22 @@ async function enviarProducto (nombre,precio,imagen,id){
             id:id
             
         })
+        
     })
+    location.reload()
     const conexionConvertida = conexion.json();
 
-    return conexionConvertida;
+    return await conexionConvertida;
 
 }
 
 const borrarProducto = async (id)=>{
     const res = await fetch(`https://fake-api-jet-five.vercel.app/Productos/${id}`,{
         method: "DELETE",
-        headers: {
-            "content-type": "application/json"
-        },
+        
         
     });
-    return res.json();
+    return await res.json();
 }
 
 
