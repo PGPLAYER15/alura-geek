@@ -5,14 +5,14 @@
 
 @font-face {
     font-family: PressStart;
-    src: url('../public/fonts/PressStart.ttf') format('truetype');
+    src: url('/public/fonts/PressStart.ttf') format('truetype');
     font-display: swap;
 }
 
 
 @font-face {
     font-family:IBMPlexMono;
-    src: url('../public/fonts/IBMPlexMono.ttf') format('truetype');
+    src: url('/public/fonts/IBMPlexMono.ttf') format('truetype');
     font-display: swap;
 }
 
