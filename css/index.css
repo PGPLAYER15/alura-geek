@@ -1,7 +1,7 @@
-@import url(header.css);
-@import url(normalize.css);
-@import url(productos.css);
-@import url(footer.css);
+@import url(./header.css);
+@import url(./normalize.css);
+@import url(./productos.css);
+@import url(./footer.css);
 
 @font-face {
     font-family: PressStart;
