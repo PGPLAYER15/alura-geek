@@ -1,5 +1,5 @@
 async function listarProductos (){
-    const conexion = await fetch('https://fake-api-jet-five.vercel.app/Productos',{
+    const conexion = await fetch('https://api-fake-seven.vercel.app/Productos',{
         method: "GET",
         headers: {
             "Content-Type":"application/json"
@@ -14,7 +14,7 @@ async function listarProductos (){
 }
 
 async function enviarProducto (nombre,precio,imagen,id){
-    const conexion = await fetch('https://fake-api-jet-five.vercel.app/Productos' , {
+    const conexion = await fetch('https://api-fake-seven.vercel.app/Productos' , {
         method:"POST",
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({
@@ -34,7 +34,7 @@ async function enviarProducto (nombre,precio,imagen,id){
 }
 
 const borrarProducto = async (id)=>{
-    const res = await fetch(`https://fake-api-jet-five.vercel.app/Productos/${id}`,{
+    const res = await fetch(`https://api-fake-seven.vercel.app/Productos/${id}`,{
         method: "DELETE",
         
         
