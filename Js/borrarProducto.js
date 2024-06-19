@@ -1,9 +1,9 @@
 import { conexionAPI } from "./conexionAPI";
-const API = 'http://localhost:3001/Productos';
+const API = 'https://fake-api-jet-five.vercel.app/Productos';
 
 async function borrarProducto(id ) {
     
-    return await fetch(`http://localhost:3001/Productos/${id}`,{
+    return await fetch(`https://fake-api-jet-five.vercel.app/Productos/${id}`,{
         method: "DELETE"
     });
 
